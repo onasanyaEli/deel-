@@ -997,14 +997,14 @@ input {
         flex-direction: column-reverse;
     }
     .nav2{
-        top: 100px;
+        top: 90px;
         width: 100%;
     }
     .hero{
-        flex-direction: column;
-       padding-top: 120px;
+       flex-direction: column;
+       padding-top: 230px;
        padding-bottom: 60px;
-        align-items: center;
+       align-items: center;
         justify-content: center;
     }
     .left{
@@ -1067,10 +1067,26 @@ input {
     .hero{
         flex-direction: column;
         align-items: center;
-        
+        padding-top: 250px;
+        gap: 20px;
     }
     .nav2{
         top: 70px;
+    }
+    .contracts-body{
+        width: 100%;
+    }
+    .contracts-dev>img{
+        width: 100%;
+    }
+    .contracts-body{
+        right: 0px;
+        top: 0%;
+        transform: none;
+        position: relative;
+    }
+    .right{
+        padding-bottom: 120px;
     }
 }
 @media screen and (max-width: 425px) {
@@ -1112,7 +1128,7 @@ input {
     .hero{
         height: 1200px;
         width: 100%;
-        padding-top: 140px;
+        padding-top: 200px;
     }
     .button{
         flex-direction: column;
@@ -1222,7 +1238,7 @@ input {
         flex-direction: column;
     }
     .hero{
-        padding-top: 180px;
+        padding-top: 220px;
         width: 100%;
     }
     .content-img{
